@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "262950511354",
+    "project_id": "zukacomputerscience",
+    "storage_bucket": "zukacomputerscience.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262950511354:android:51df204c941670fdfcdf43",
+        "android_client_info": {
+          "package_name": "com.example.zukacomputerscience"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "262950511354-ogegf8l9gkm63cka54c9sc0vprg6j7ig.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA47I3GDHY4pZEit5rD1iQYxB9emSLTz0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "262950511354-ogegf8l9gkm63cka54c9sc0vprg6j7ig.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

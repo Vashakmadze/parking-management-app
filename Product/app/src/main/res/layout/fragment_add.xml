@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".addFragment"
+    android:background="#EAE2B7">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="start"
+            android:paddingLeft="20sp"
+            android:paddingTop="20sp"
+            android:paddingBottom="10sp"
+            android:text="Input car number: "
+            android:textColor="#FB8500"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/carNumberInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFB703"
+            android:hint="Car Number"
+            android:paddingLeft="20sp"
+            android:paddingTop="10sp"
+            android:paddingRight="20sp"
+            android:textColorHint="#F77F00"
+            app:boxStrokeColor="#F77F00"
+            app:helperTextTextColor="#F77F00"
+            app:hintTextColor="#FFB703"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/carNumberInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#EAE2B7"
+                android:textColor="#F77F00"
+                android:fontFamily="@font/roboto_medium"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="start"
+            android:paddingLeft="20sp"
+            android:paddingTop="20sp"
+            android:paddingBottom="10sp"
+            android:text="Input car type: "
+            android:textColor="#FB8500"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/carTypeInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFB703"
+            android:hint="Car Type"
+            android:paddingLeft="20sp"
+            android:paddingTop="10sp"
+            android:paddingRight="20sp"
+            android:textColorHint="#F77F00"
+            app:boxStrokeColor="#F77F00"
+            app:helperTextTextColor="#F77F00"
+            app:hintTextColor="#FFB703">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/carTypeInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#EAE2B7"
+                android:textColor="#F77F00"
+                android:fontFamily="@font/roboto_medium"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="start"
+            android:paddingLeft="20sp"
+            android:paddingTop="20sp"
+            android:paddingBottom="10sp"
+            android:text="Input car color: "
+            android:textColor="#FB8500"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/carColorInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFB703"
+            android:hint="Car Color"
+            android:paddingLeft="20sp"
+            android:paddingTop="10sp"
+            android:paddingRight="20sp"
+            android:textColorHint="#F77F00"
+            app:boxStrokeColor="#F77F00"
+            app:helperTextTextColor="#F77F00"
+            app:hintTextColor="#FFB703">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/carColorInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#EAE2B7"
+                android:textColor="#F77F00"
+                android:fontFamily="@font/roboto_medium"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/timeOfEntry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="start"
+            android:paddingLeft="20sp"
+            android:paddingTop="20sp"
+            android:paddingBottom="10sp"
+            android:text="Time of entry: "
+            android:textColor="#FB8500"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/submit_client"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="SUBMIT"
+                android:textColor="#FCBF49"
+                android:textSize="20sp"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+</FrameLayout>
